@@ -125,12 +125,31 @@ main {
   outline: 1px dotted blue;
 }
 
-/* line 1, ../sass/layout/_footer.scss */
+/* line 3, ../sass/layout/_footer.scss */
 footer {
   min-height: 5%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 0.8rem;
   background-color: #333;
   color: #fdfdfd;
   outline: 1px dotted green;
+}
+/* line 18, ../sass/layout/_footer.scss */
+footer small {
+  display: inline-block;
+  min-width: 20%;
+}
+/* line 23, ../sass/layout/_footer.scss */
+footer a {
+  display: inline-block;
+  min-width: 20%;
+  color: #fdfdfd;
 }
 
 /* line 36, ../sass/screen.scss */
@@ -162,7 +181,7 @@ footer {
 
 /* line 4, ../sass/modules/_animateSelectBox.scss */
 .animateSelectBox {
-  width: 50%;
+  width: 55%;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
