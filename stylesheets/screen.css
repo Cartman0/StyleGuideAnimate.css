@@ -195,7 +195,7 @@ footer a {
 }
 
 /* line 19, ../sass/modules/_animateSelectBox.scss */
-.animateSelectBox_select_animationType {
+.animateSelectBox_select_animateType {
   display: block;
   -moz-border-radius: 0.3rem;
   -webkit-border-radius: 0.3rem;
