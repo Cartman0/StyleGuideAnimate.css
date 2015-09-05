@@ -113,8 +113,8 @@ html, body {
 
 /* line 1, ../sass/layout/_header.scss */
 header {
-  min-height: 30%;
-  height: 30%;
+  min-height: 23.5%;
+  height: 23.5%;
   width: 100%;
   outline: 1px dotted red;
 }
@@ -130,7 +130,7 @@ footer {
   min-height: 5%;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-top: 1rem;
+  margin-top: 2%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -179,20 +179,20 @@ footer a {
   outline: 1px dotted yellow;
 }
 
-/* line 4, ../sass/modules/_animateSelectBox.scss */
+/* line 5, ../sass/modules/_animateSelectBox.scss */
 .animateSelectBox {
-  width: 55%;
+  width: 50%;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
   -webkit-justify-content: space-around;
   justify-content: space-around;
-  margin: 1.5rem auto;
+  margin: 2% auto;
   outline: 1px dotted red;
 }
 
-/* line 14, ../sass/modules/_animateSelectBox.scss */
+/* line 15, ../sass/modules/_animateSelectBox.scss */
 .animateSelectBox_select_animateAttributes {
   display: block;
   -moz-border-radius: 0.3rem;
@@ -200,7 +200,7 @@ footer a {
   border-radius: 0.3rem;
 }
 
-/* line 19, ../sass/modules/_animateSelectBox.scss */
+/* line 20, ../sass/modules/_animateSelectBox.scss */
 .animateSelectBox_select_animationType {
   display: block;
   -moz-border-radius: 0.3rem;
@@ -208,7 +208,7 @@ footer a {
   border-radius: 0.3rem;
 }
 
-/* line 24, ../sass/modules/_animateSelectBox.scss */
+/* line 25, ../sass/modules/_animateSelectBox.scss */
 .animateSelectBox_arrow {
   display: block;
   font-size: 2rem;
