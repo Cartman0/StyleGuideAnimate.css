@@ -1,0 +1,6 @@
+footer {
+  min-height: 5%;
+  background-color: $black;
+  color: $white;
+  @include debug_outline(green);
+}

@@ -1,0 +1,6 @@
+header {
+  min-height: 30%;
+  height: 30%;
+  width: 100%;
+  @include debug_outline(red);
+}

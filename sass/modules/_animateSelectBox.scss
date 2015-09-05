@@ -1,0 +1,27 @@
+@import "compass/css3/flexbox";
+@import "compass/css3/border-radius";
+
+.animateSelectBox {
+  width: 50%;
+  @include display-flex(flex);
+  @include flex-direction(row);
+  @include justify-content(space-around);
+  margin: 1.5rem auto;
+
+  @include debug_outline(red);
+}
+
+ .animateSelectBox_select_animateAttributes {
+   display: block;
+   @include border-radius(0.3rem);
+ }
+
+ .animateSelectBox_select_animationType {
+   display: block;
+   @include border-radius(0.3rem);
+ }
+
+.animateSelectBox_arrow {
+  display: block;
+  font-size: 2rem;
+}
